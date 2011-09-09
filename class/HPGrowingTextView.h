@@ -30,7 +30,7 @@
 @class HPGrowingTextView;
 @class HPTextViewInternal;
 
-@protocol HPGrowingTextViewDelegate
+@protocol HPGrowingTextViewDelegate <NSObject>
 
 @optional
 - (BOOL)growingTextViewShouldBeginEditing:(HPGrowingTextView *)growingTextView;
